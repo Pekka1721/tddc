@@ -1,59 +1,69 @@
 
 header{
+    padding: 0;
+    margin: 0;
+    color: #fdca40;
+    font-family: 'League Gothic', sans-serif;
     
-    /* border:solid 1px #FFFFFF; */
-    /* border-bottom:1px solid #edd4f1; */
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    /* margin: 10px 0; */
-    /* box-shadow:-5px -10px 10px #d0e2fc;  */
-
     
     
 }
 .logo{
-   /* border:1px solid black ; */
-   padding:0 10px;
-   text-align:center;
-
+    
+    margin: 10px 0;
+    
+    padding:0 20%  0 20%;
 }
 p{
-    font-weight: bold;
-    color: 	#1E232A;
-
-    
+    font-size: 100px;
+    height: 20%;
+}
+.lists{
+   
+    display: flex;
+    justify-content: space-around;
+}
+span a {
+    font-size: 20px;
+    color: #fdca40;
+    text-decoration: none;
+    font-family: 'Figtree', sans-serif;
+}
+span{
+    margin: 0 1%;
 }
 .nav{
-    width: 70%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-
-    /* border: dotted 1px #1E232A; */
+    margin: 0 20%;
 }
-@media all and (max-width:500px){
-    header{
-        display: block;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-    .nav{
-        width: 80%;
-        margin:  10px 10%;
-    }
+.text{
+    margin: 10% 20% 12%;
+    
+    width: 60%;
 }
-
-@media all and (max-width:400px){
-    header{
-        display: block;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-    .nav{
-        width: 100%;
-        margin:  10px 1%;
-    }
+.lca{
+    font-size: 40px;
+    margin:0 20px ;
 }
-
-
+.para{
+    padding-left: 2%;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: 'Figtree', sans-serif;
+    margin-top: 50px;
+}
+.testimonials{
+    
+    display:flex;
+    list-style: none;
+    justify-content: space-between;
+    padding: 0 2%;
+}
+.testimonials li h3{
+    font-size: 30px;
+    margin: 30px  10px;
+    
+}
+.testimonials li p{
+    color: #ffffff;
+    font-size: 20px;
+}

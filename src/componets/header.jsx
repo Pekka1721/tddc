@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "./navcomponent";
+// import Button from "./navcomponent";
 import "../css/header.css"
 
 function Header(){
@@ -7,16 +7,35 @@ function Header(){
         
             <header>
                 <div className="logo"> 
-                <p>The Day Dreamers Company</p>
-                </div >
+                <p>THE DAY DREAMER`S COMPANY</p>
+                </div > 
                 <div className="nav">
-                    <Button name="Home"></Button>
-                    <Button name="About us"></Button>
-                    <Button name="Movies"></Button>
-                    <Button name="Watch Now"></Button>
+                    <ul className="lists">
+                        <span><a href="/">Short Films </a> </span>
+                        <span><a href="/">Watch Now</a> </span>
+                        <span><a href="/">Up Coming </a> </span>
+                    </ul>
                 </div>
-                
-                   
+                <div className="text">
+                <span className="lca">Lights, Camera, Action!</span>
+                <p className="para">Welcome to the ultimate collection of mind-blowing <br></br>short films 
+                    that will make you go wooo😯
+                </p>
+                <ul className="testimonials">
+                    <li>
+                        <h3>25</h3>
+                        <p>Curated Films</p>
+                    </li>
+                    <li>
+                    <h3>10</h3>
+                        <p>Award Winners</p>
+                    </li>
+                    <li>
+                    <h3>15</h3>
+                        <p>Obscure Gems</p>
+                    </li>
+                </ul>
+                </div>
             </header>
       
         
