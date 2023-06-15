@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/tddc/static/css/main.96c86d93.css",
+    "main.js": "/tddc/static/js/main.be8e6b8e.js",
+    "index.html": "/tddc/index.html",
+    "main.96c86d93.css.map": "/tddc/static/css/main.96c86d93.css.map",
+    "main.be8e6b8e.js.map": "/tddc/static/js/main.be8e6b8e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.96c86d93.css",
+    "static/js/main.be8e6b8e.js"
+  ]
+}
