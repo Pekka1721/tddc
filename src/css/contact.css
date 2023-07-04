@@ -1,0 +1,30 @@
+*{
+    text-decoration: none;
+    color: #fdca40;
+
+}
+.contact{
+    /* border:1px dotted #fdca40; */
+    width: 70%;
+    margin: 3% 10%;
+    text-align: center;
+}
+.banner {
+    letter-spacing: 2px;
+    text-align: center;
+    margin:2% 10% ;
+}
+
+.form{
+    width: 70%;
+    margin: 3% 10%;
+    /* border:1px solid #fdca40; */
+}
+.feilds{
+    margin: 2% 25%;
+    height: 40px;
+    width: 50%;
+    display: block;
+    border-radius: 5px;
+    border: 1px solid #fdca40;
+}

@@ -1,69 +1,43 @@
+@media screen and (min-width:310px) and (max-width:499px){
 
-header{
-    padding: 0;
-    margin: 0;
-    color: #fdca40;
-    font-family: 'League Gothic', sans-serif;
-    
-    
-    
+    header{
+        padding: 0;
+        margin: 0;
+        color: #fdca40;
+        font-family: 'League Gothic', sans-serif;
+      
+    }
+    .logo{
+        margin: 1% 0;
+        padding:0 10% 
+    }
+    p{
+        font-size: 40px;
+        height: 20%;
+    }
+
+
+
 }
-.logo{
-    
-    margin: 10px 0;
-    
-    padding:0 20%  0 20%;
-}
-p{
-    font-size: 100px;
-    height: 20%;
-}
-.lists{
+@media screen and (min-width:499px) {
    
-    display: flex;
-    justify-content: space-around;
+    header{
+        padding: 0;
+        margin: 0;
+        color: #fdca40;
+        font-family: 'League Gothic', sans-serif;
+      
+    }
+    .logo{
+        margin: 10px 0;
+        padding:0 20% 
+    }
+    p{
+        font-size: 80px;
+        height: 20%;
+    }
 }
-span a {
-    font-size: 20px;
-    color: #fdca40;
-    text-decoration: none;
-    font-family: 'Figtree', sans-serif;
-}
-span{
-    margin: 0 1%;
-}
-.nav{
-    margin: 0 20%;
-}
-.text{
-    margin: 10% 20% 12%;
-    
-    width: 60%;
-}
-.lca{
-    font-size: 40px;
-    margin:0 20px ;
-}
-.para{
-    padding-left: 2%;
-    font-size: 20px;
-    color: #ffffff;
-    font-family: 'Figtree', sans-serif;
-    margin-top: 50px;
-}
-.testimonials{
-    
-    display:flex;
-    list-style: none;
-    justify-content: space-between;
-    padding: 0 2%;
-}
-.testimonials li h3{
-    font-size: 30px;
-    margin: 30px  10px;
-    
-}
-.testimonials li p{
-    color: #ffffff;
-    font-size: 20px;
-}
+
+
+
+
