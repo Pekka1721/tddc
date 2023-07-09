@@ -3,28 +3,67 @@
     color: #fdca40;
 
 }
+h2,span{
+    color: white;
+    font-family: 'Figtree',sans-serif;
+}
 .contact{
-    /* border:1px dotted #fdca40; */
+    border-top:1px solid #fdca40;
+    color: white;
     width: 70%;
     margin: 3% 10%;
     text-align: center;
 }
 .banner {
+    font-family: 'Figtree',sans-serif;
+    color: white;
     letter-spacing: 2px;
     text-align: center;
     margin:2% 10% ;
 }
 
 .form{
+    
+    font-family: 'Figtree',sans-serif;
+    color: white;
     width: 70%;
     margin: 3% 10%;
     /* border:1px solid #fdca40; */
 }
 .feilds{
+    font-family: 'Figtree',sans-serif;
+    color: white;
     margin: 2% 25%;
     height: 40px;
     width: 50%;
     display: block;
     border-radius: 5px;
-    border: 1px solid #fdca40;
+    border: 1px solid wheat;
+}
+.btn{
+    font-family: 'Figtree',sans-serif;
+    --font-color: #fefefe;
+    --bg-color: #111;
+    --main-color: #fefefe;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid var(--main-color);
+    background-color: var(--bg-color);
+    box-shadow: 4px 4px var(--main-color);
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--font-color);
+    cursor: pointer;
+
+
+}
+.btn:active {
+    box-shadow: 0px 0px var(--main-color);
+    transform: translate(3px, 3px);
+  }
+.error{
+    color: red;
+    font-size: small;
+    font-family: 'Figtree',sans-serif;
 }

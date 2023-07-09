@@ -1,29 +1,46 @@
+ import Poster from "./Poster.webp"
  export const List =[
-    {
-        film_image:"👋🏻",
-        film_title:"The Cold Fight",
-        link:"Youtube Link",
+    {film_title:"DISCONNECTED",
+    image:Poster,
+    link:`https://youtu.be/oewOksFyNug`        
+    },
 
+    {film_title:"PHYCHY",
+    image:Poster,
+    link:`https://youtu.be/1RFTgUtM0cc`        
     },
     {
-        film_image:"",
+        film_title:"The Cold Fight",
+        image:Poster,
+        link:`https://youtu.be/4KkFSByN8J8`
+    },
+    {
+        film_title:"M.L.M(Multi level Mosam) ",
+        image:Poster,
+        link:"https://youtu.be/cBtutTEYMs4",
+    },
+    
+    {
         film_title:"Suicide Stories",
-        link:"Youtube Link",
+        image:Poster,
+        link:"https://youtu.be/rArpO3Z9ISo",
     },
     {
-        film_image:"",
         film_title:"She vs Honour",
-        link:"Youtube Link",
+        image:Poster,
+        link:"https://youtu.be/uWk6OdL046g",
     },
     {
-        film_image:"",
         film_title:"Nish-Kalanki Part-1",
-        link:"Youtube Link",
+        image:Poster,
+        link:`https://youtu.be/Y-GiBo17IWo`,
     },
     {
-        film_image:"",
         film_title:"Nish-Kalanki Part-2",
-        link:"Youtube Link",
-    }
+        image:`	https://i.ytimg.com/vi/0z7RY9eAjDM/hqdefault.jpg?s…BACGAYgATgB&rs=AOn4CLCtHAyxogrQpm2zcTz_1sgzWUPyAA`,
+        link:"https://youtu.be/0z7RY9eAjDM",
+    },
+    
+
 ]
 

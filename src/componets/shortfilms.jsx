@@ -1,4 +1,4 @@
-
+// import Poster from "../assets/Poster.webp"
 import { List } from "../assets/shortFilmsList";
 import React from "react";
 import "../css/shortfilms.css"
@@ -7,12 +7,11 @@ import "../css/shortfilms.css"
     return(
         <div className="ShortFlilmsDiv">
             <h2>Watch Our Original Content Online</h2>
-            <h3>Our Short Films</h3>
+            <h3 className="ourShortfilms">Our Short Films</h3>
             <div className="Filmsgrid">
                 {List.map( (e)=>{
                     return(
-                        <CardComponet title={e.film_title}  share={e.link} Watch={e.link}/>
-
+                        <CardComponet data={e}/>
                     )
                 }).reverse()}
             </div>
@@ -27,13 +26,17 @@ import "../css/shortfilms.css"
 
 //UI component of the short films
 const CardComponet = (props)=>{
+    const {film_title,image,link}= props.data;
     return(
         <div className="Card">
              
-            <h3>{props.title}</h3>
+            <h3>{film_title}</h3>
+            
+            <img src={image} alt="movie card"/>
+           
+            
             <div>
-                <span>{props.share}</span>
-                <span>{props.Watch}</span>
+                <button> <a href={link} target="blank">Watch</a></button>
             </div>
 
         </div>

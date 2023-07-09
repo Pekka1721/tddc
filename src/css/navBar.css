@@ -1,6 +1,8 @@
+
 @media screen and (min-width:200px) and (max-width:392px) {
     .nav {
         margin: 0 10%;
+
 
     }
 
@@ -47,13 +49,15 @@
         width: 80%;
         margin: 1% 20%;
         display: flex;
+        
         justify-content: space-between;
 
     }
 
     .navText {
         font-size: 20px;
-
+        
+        flex-shrink: 0;
         color: #fdca40;
         text-decoration: none;
         font-family: 'Figtree',sans-serif;
